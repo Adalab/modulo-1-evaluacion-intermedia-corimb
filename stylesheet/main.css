@@ -54,6 +54,7 @@ body {
   color: var(--light-color);
   margin: auto;
   font-weight: bold;
+  text-transform: capitalize;
 }
 .main-text span {
   display: block;
@@ -76,21 +77,13 @@ ul {
 }
 @media all and (min-width: 768px) {
   .main-header {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
     width: 100vw;
     padding-right: 30px;
   }
   .main-text {
     font-size: 40px;
-
-    text-align: center;
-  }
-
-  .menu {
-    font-size: 16px;
   }
   .logo {
     padding-left: 30px;
