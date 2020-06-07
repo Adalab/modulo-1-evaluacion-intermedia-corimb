@@ -17,13 +17,6 @@ body {
   font-family: var(--general-font);
 }
 
-.main {
-  background-color: var(--background);
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 .header {
   background-color: var(--light-color);
   display: flex;
@@ -47,10 +40,16 @@ body {
 .logo {
   width: 155px;
 }
-
+.main {
+  background-color: var(--background);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .main-text {
   font-size: 30px;
-  display: block;
   text-align: center;
   color: var(--light-color);
   margin: auto;
