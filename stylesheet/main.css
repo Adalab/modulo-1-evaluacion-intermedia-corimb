@@ -9,7 +9,7 @@
   --background: #3cdbc0;
   --menu: #4a4a4a;
   --light-color: #ffffff;
-  --general-font: "Rubik", sans-serif;
+  --general-font: 'Rubik', sans-serif;
 }
 
 body {
@@ -40,6 +40,7 @@ body {
   padding-bottom: 13px;
   display: inline;
   text-align: center;
+  text-transform: uppercase;
 }
 .logo {
   width: 155px;
