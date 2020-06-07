@@ -37,14 +37,15 @@ body {
 .menu {
   font-size: 16px;
   color: var(--menu);
-  padding-bottom: 13px;
   display: inline;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 13px;
+  padding-top: 10px;
 }
+
 .logo {
   width: 155px;
-  height: 61px;
 }
 
 .main-text {
@@ -87,5 +88,9 @@ ul {
   }
   .logo {
     padding-left: 30px;
+  }
+  .menu a {
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 }
